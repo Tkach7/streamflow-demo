@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.connectCta {
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  background: #2a3441;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.connectCta:hover {
+  background: #18a2d9;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  max-width: 780px;
+  background: #2a3441;
+  border-radius: 8px;
+}
+
+.divider {
+  width: calc(100% - 16px);
+}

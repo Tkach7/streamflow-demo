@@ -1,0 +1,8 @@
+.container {
+  background: #1c2530;
+  padding-inline: 16px;
+  height: 100%;
+  color: rgb(205, 215, 227);
+  display: flex;
+  flex-direction: column;
+}

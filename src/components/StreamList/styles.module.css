@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  padding-inline: 16px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.metaId {
+  word-break: break-all;
+}
